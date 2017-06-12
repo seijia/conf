@@ -1,0 +1,20 @@
+zypper addrepo http://download.opensuse.org/repositories/home:MargueriteSu/openSUSE_Tumbleweed/home:MargueriteSu.repo
+
+zypper refresh
+
+zypper shadowsockets-qt5
+
+
+
+
+                                                                                                                                                                                                                     
+http://mirrors4.tuna.tsinghua.edu.cn/opensuse/tumbleweed/repo/oss/
+
+
+http://mirrors4.tuna.tsinghua.edu.cn/opensuse/tumbleweed/repo/non-oss/
+
+http://download.opensuse.org/repositories/home:/MargueriteSu/openSUSE_Tumbleweed/
+
+http://linuxdownload.adobe.com/linux/x86_64/
+
+http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/
