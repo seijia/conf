@@ -4,17 +4,19 @@ zypper refresh
 
 zypper shadowsockets-qt5
 
-
-
-
-                                                                                                                                                                                                                     
-http://mirrors4.tuna.tsinghua.edu.cn/opensuse/tumbleweed/repo/oss/
-
-
-http://mirrors4.tuna.tsinghua.edu.cn/opensuse/tumbleweed/repo/non-oss/
+[opensuse]
 
 http://download.opensuse.org/repositories/home:/MargueriteSu/openSUSE_Tumbleweed/
 
-http://linuxdownload.adobe.com/linux/x86_64/
+https://download.opensuse.org/tumbleweed/repo/oss/
 
 http://ftp.gwdg.de/pub/linux/misc/packman/suse/openSUSE_Tumbleweed/
+
+[centos]
+
+epel-release
+
+http://debuginfo.centos.org/7/$basearch/
+
+wget -O /etc/yum.repos.d/CentOS-Base.repo http://mirrors.aliyun.com/repo/Centos-7.repo
+
